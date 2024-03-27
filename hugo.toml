@@ -18,7 +18,7 @@ pluralizelisttitles = false
     dark_mode = true
 
     menu = [
-        {Name = "Chapter", URL = "/chapter", HasChildren = true, Limit = 500},
+        {Name = "Chapter", URL = "chapter", HasChildren = true, Limit = 500},
     ]
 
     github_url = "https://github.com"
