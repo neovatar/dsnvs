@@ -1,4 +1,5 @@
-baseURL = '//neovatar.github.io/dsnvs/'
+baseURL = '/'
+relativeURLs = true
 languageCode = 'en-us'
 title = "Poison"
 theme = "poison"
