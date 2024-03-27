@@ -1,0 +1,15 @@
+{{ define "main" -}}
+<h1 class="title">{{ .Title }}</h1>
+<ul class="entries">
+    {{ range .Pages.GroupByDate "2006" }}
+        <h3 style="text-align: center;"></h3>
+        {{ range .Pages }}
+            <li>
+                <span class="title">
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </span>
+            </li>
+        {{ end }}
+    {{ end }}
+</ul>
+{{ end }}
