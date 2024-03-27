@@ -1,4 +1,4 @@
-baseURL = 'https://poison.lukeorth.com/'
+baseURL = 'https://neovatar.github.io/dsnvs/'
 languageCode = 'en-us'
 title = "Poison"
 theme = "poison"
