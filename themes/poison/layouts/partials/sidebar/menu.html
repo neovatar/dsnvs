@@ -23,7 +23,7 @@
                         <li class="sub-heading">
                             {{ $menu_item.Pre }}
                         </li>
-                        {{ range (first $menu_item.Limit .Pages) }}
+                        {{ range sort (first $menu_item.Limit .Pages) "File.Path" }}
                             <li class="bullet">
                                 <a href="{{ .Permalink }}">{{ .Title }}</a>
                             </li>
