@@ -24,7 +24,9 @@
                             {{ $menu_item.Pre }}
                         </li>
                         {{ range sort (first $menu_item.Limit .Pages) "File.Path" }}
-                            <li class="bullet">
+                            {{ $depth := sub (len (split .File.Path "/")) 2 }}
+                            {{ $depth = cond (lt $depth 0) 0 $depth }}
+                            <li class="bullet" style="padding-left: {{ mul $depth 2 }}ch;">
                                 <a href="{{ .Permalink }}">{{ .Title }}</a>
                             </li>
                         {{ end }}
