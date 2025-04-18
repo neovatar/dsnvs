@@ -305,7 +305,7 @@ tbody tr:nth-child(odd) th {
     text-decoration: none;
 }
 .article-toc li.active {
-    font-weight: bold;
+    font-weight: 600;
 }
 .article-toc li.inactive {
     font-weight: 300;

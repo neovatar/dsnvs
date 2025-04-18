@@ -16,23 +16,17 @@ window.addEventListener('DOMContentLoaded', () => {
             }
         }
         entries.forEach(entry => {
-            if (activeElement) {
-                document.querySelectorAll("nav[id='TableOfContents'] li").forEach((node) => {
-                    node.classList.add('inactive');
-                    node.classList.replace('active', 'inactive');
-                });
-            }
+            const id = entry.target.getAttribute('id');
             if (entry.intersectionRatio > 0) {
-                activeElement = entry.target.getAttribute('id');
+                document.querySelector(`nav[id='TableOfContents'] li a[href="#${id}"]`).parentElement.classList.add('active');
             }
-            if (activeElement) {
-                document.querySelector(`nav[id='TableOfContents'] li a[href="#${activeElement}"]`).parentElement.classList.replace('inactive', 'active');
+            else {
+                document.querySelector(`nav[id='TableOfContents'] li a[href="#${id}"]`).parentElement.classList.remove('active');
             }
         });
     });
 
-    const post = document.querySelector(".post");
-    post.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]").forEach((section) => {
+    document.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]").forEach((section) => {
         observer.observe(section);
     });
 });
