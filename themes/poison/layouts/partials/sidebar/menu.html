@@ -19,7 +19,7 @@
                     <li class="heading">
                         <a href="{{ relURL $menu_item.URL }}">{{ $menu_item.Name }}</a>
                     </li>
-                    {{ if $menu_item.HasChildren }}
+                    {{ if and ($menu_item.HasChildren) (strings.HasPrefix $.RelPermalink (relURL $menu_item.URL)) }}
                         <li class="sub-heading">
                             {{ $menu_item.Pre }}
                         </li>

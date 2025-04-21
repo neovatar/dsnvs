@@ -59,18 +59,18 @@ This allows for similar "character builds" with a will different focus. For exam
 
 #### Archetype-Advanced-Master
 
-| Level | Archetype                                              | Advanced Path                  | Master Path                    |
-| :---: | ------------------------------------------------------ | ------------------------------ | ------------------------------ |
-|   1   | Proficiencies, Identity Rock, Identity Ribbon  |                                |                                |
-|   2   | Identity Rock                                          |                                |                                |
-|   3   |                                                        | Identity Rock, Identity Ribbon |                                |
-|   4   | Ability Score Improvement                              | Ribbon                         |                                |
-|   5   | Tier Upgrade                                           |                                |                                |
-|   6   |                                                        | Rock                           |                                |
-|   7   |                                                        |                                | Identity Rock, Identity Ribbon |
-|   8   | Ability Score Improvment                               | Ribbon                         |                                |
-|   9   | Ribbon                                                 |                                | Rock                           |
-|  10   | Ability Score Improvment                               |                                | Capstone                       |
+| Level | Archetype                                     | Advanced Path                  | Master Path                    |
+| :---: | --------------------------------------------- | ------------------------------ | ------------------------------ |
+|   1   | Proficiencies, Identity Rock, Identity Ribbon |                                |                                |
+|   2   | Identity Rock                                 |                                |                                |
+|   3   |                                               | Identity Rock, Identity Ribbon |                                |
+|   4   | Ability Score Improvement                     | Ribbon                         |                                |
+|   5   | Tier Upgrade                                  |                                |                                |
+|   6   |                                               | Rock                           |                                |
+|   7   |                                               |                                | Identity Rock, Identity Ribbon |
+|   8   | Ability Score Improvement                     | Ribbon                         |                                |
+|   9   | Ribbon                                        |                                | Rock                           |
+|  10   | Tier Upgrade, Ability Score Improvement       |                                | Capstone                       |
 
 
 #### Feat template
@@ -84,3 +84,73 @@ This allows for similar "character builds" with a will different focus. For exam
 Full explanation of what the feature does in mechanical terms. Include any scaling, stat dependencies, save DCs, or synergy with other systems (e.g., maneuver points, energy, etc.).
 
 > 💡 *Design Note:* [Optional commentary for internal design thoughts, intended role, or how it ties into narrative or gameplay.]
+
+#### Archetype template
+
+# [Archetype Name]
+
+## Archetype Overview
+**Role:** [e.g. frontline tank, agile skirmisher, arcane blaster, battlefield controller]  
+**Core Fantasy:**  
+*A one- or two-sentence description of what this archetype embodies in the world. What kind of hero are they? What do they do best?*
+
+**Primary Stats:** [e.g. STR / CON]  
+**Combat Style:** [e.g. heavy armor brawler, nimble striker, etc.]  
+**Resource Mechanic:** [if applicable, e.g. Maneuver Points]
+
+---
+
+## 🎓 Level 1: Archetype Features
+
+### Proficiencies
+- **Armor:** [Light / Medium / Heavy]
+- **Weapons:** [Simple / Martial]
+- **Tools:** [Any tool proficiencies, if relevant]
+- **Saving Throws:** [e.g. Strength, Constitution]
+- **Skills:** Choose [X] from: [list of themed skills]
+
+---
+
+### 🎭 Identity Ribbon *(Level 1)*  
+**Type:** Passive / Utility  
+**Summary:**  
+*A small flavorful feature that gives this Archetype unique style or exploration/social advantage.*
+
+**Effect:**  
+[Mechanical benefit or thematic bonus]
+
+---
+
+### 🪨 Identity Rock *(Level 2)*  
+**Type:** Active / Core Ability  
+**Summary:**  
+*A central mechanic or ability that defines this Archetype’s combat or exploration identity.*
+
+**Effect:**  
+[Rules text with clear mechanics, MP use if applicable, and synergy hooks]
+
+> 💡 *Design Note:* [Optional notes about its role, intended impact, or synergy]
+
+---
+
+## 🔧 Level 5: Tier Upgrade
+
+### [Upgrade Name] *(Tier Upgrade)*  
+**Type:** Passive / Action Boost  
+**Effect:**  
+[Major mechanical boost, like Extra Attack, improved MP regen, better defense, etc.]
+
+> 💡 *Design Note:* [Optional notes — this should feel like a clear evolution of the Archetype]
+
+---
+
+## 🎀 Level 9: Archetype Ribbon
+
+### [Feature Name] *(Ribbon)*  
+**Type:** Passive / Utility / Situational  
+**Effect:**  
+[Late-game perk or thematic flavor enhancement]
+
+> 💡 *Design Note:* [Optional — this can tie back to their story, build identity, or high-level utility]
+
+---
